@@ -1,6 +1,6 @@
 html{
-  color: #999;
-  background: #cfaaaa;
+  color: inherit;
+  background: #afafaf;
 
 h1
   font-size: 18px;
@@ -24,7 +24,7 @@ height: auto;
 }
 
 a{
-  color: #966;
+  color: #000;
 
 }
 
@@ -40,7 +40,7 @@ li{
   margin-bottom: 40px
 }
 body {
-    background:#111;
+    background:#979;
     margin:0;
     padding:40px;
 }
@@ -53,7 +53,7 @@ body {
 
 #category-toggle-list li {
     list-style:none;
-    color:#fff;
+    color:#aaa;
     font-family:sans-serif;
     text-transform:uppercase;
     padding:15px 0;
