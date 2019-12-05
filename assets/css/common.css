@@ -54,26 +54,14 @@ h3 {
 
 html, body, #wrapper{
   min-height: 100%
-  .bg_test-text {
-      border:  solid 1px;                             /* 枠線指定 */
-      display:  inline-block;                         /* インラインブロックにする */
-      padding: 10px 20px;                             /* 余白指定 */
-      background-color: rgba(255, 255, 255, 0.7);     /* 背景色指定 */
-  }
-  .bg_test {
-      text-align:  center;    /* 文字中央寄せ */
-      padding:  150px;        /* 余白指定 */
-      border: solid 2px;      /* 枠線指定 */
-  }
-  セレクタ {
-    background-image: url/Users/mizunoryota/Documents/GitHub/studyprogress-mizuyan-master/assets/images/Photo2.jpg;
-}
+
 }
   body {
       background:#FFA07A;
       margin:0;
       padding:40px;
   }
+  
 
   #category-toggle-list {
       padding:0;
