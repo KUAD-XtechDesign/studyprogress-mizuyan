@@ -108,7 +108,7 @@ html, body, #wrapper{
    height:250px;
 }
 .menu .drop_4row:hover {/*サブメニューが4つのとき*/
-   height:350px;
+   height:250px;
 }
 .menu * {/*アニメーション*/
    -moz-transition: .5s;
