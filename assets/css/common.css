@@ -105,10 +105,10 @@ html, body, #wrapper{
    height:200px;
 }
 .menu .drop_6row:hover {/*サブメニューが3つのとき*/
-   height:3050px;
+   height:250px;
 }
 .menu .drop_4row:hover {/*サブメニューが4つのとき*/
-   height:250px;
+   height:350px;
 }
 .menu * {/*アニメーション*/
    -moz-transition: .5s;
