@@ -61,7 +61,62 @@ html, body, #wrapper{
       margin:0;
       padding:40px;
   }
-
+  #menu_box {
+   margin:0;
+   float:left;
+   border:#e5e4e6 1px solid;
+}
+.menu {
+   list-style:none;
+   padding:0;
+   margin:0;
+   overflow: hidden;
+   position: relative;
+}
+.menu li {
+   width:190px;/*メニューの幅*/
+   background:#ADC653;
+   position: relative;
+   height:50px;/*メニューの高さ*/
+}
+.menu li a {
+   text-decoration:none;
+   color:#993300;
+   font-size:12px;
+   display:block;
+   padding:0 10px;
+   height:49px;
+   line-height:49px;
+   border-bottom:1px solid #fff;
+   color:#5B6F25;
+   font-weight:bold;
+}
+.menu li ul {
+   margin:0;
+   padding:0;
+}
+.menu li ul li {
+   background:#dcd3b2;
+}
+.menu li ul li a {
+   color:#9e9478;
+}
+.menu .drop_3row:hover {/*サブメニューが2つのとき*/
+   height:200px;
+}
+.menu .drop_6row:hover {/*サブメニューが3つのとき*/
+   height:3050px;
+}
+.menu .drop_4row:hover {/*サブメニューが4つのとき*/
+   height:250px;
+}
+.menu * {/*アニメーション*/
+   -moz-transition: .5s;
+   -webkit-transition: .5s;
+   -o-transition: .5s;
+   -ms-transition: .5s;
+   transition: .5s;
+}
   #category-toggle-list {
       padding:0;
       margin:0;
