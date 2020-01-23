@@ -110,6 +110,9 @@ html, body, #wrapper{
 .menu .drop_4row:hover {/*サブメニューが4つのとき*/
    height:250px;
 }
+.menu .drop_6row:hover {/*サブメニューが3つのとき*/
+   height:250px;
+}
 .menu * {/*アニメーション*/
    -moz-transition: .5s;
    -webkit-transition: .5s;
